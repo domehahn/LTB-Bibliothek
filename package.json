@@ -1,6 +1,7 @@
 {
   "name": "ltb-bibliothek",
   "private": true,
+  "description": "Responsive Cloudflare-LTB-Bibliothek mit Login, Katalog, Nachdruckdaten, ISBN-Scanner und eBay-Marktwerten",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
