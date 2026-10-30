@@ -1,0 +1,10 @@
+{
+  "name": "LTB Bibliothek",
+  "short_name": "LTB Bibliothek",
+  "lang": "de-DE",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7efd9",
+  "theme_color": "#153b5c",
+  "description": "Private Bibliothek für LTB-Hauptreihe und Nebenreihen."
+}

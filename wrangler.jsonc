@@ -1,0 +1,24 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "ltb-bibliothek",
+  "main": "src/worker.ts",
+	"compatibility_date": "2026-10-29",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+  "assets": { "directory": "./dist", "binding": "ASSETS", "not_found_handling": "single-page-application" },
+	"observability": {
+		"enabled": true
+	},
+	"triggers": {
+		"crons": ["0 3 * * *"]
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "ltb-bibliothek",
+			"database_id": "04a4cbfa-239c-4888-bfe3-b835d9273934",
+			"migrations_dir": "migrations"
+		}
+	]
+}
